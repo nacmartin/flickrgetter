@@ -98,6 +98,6 @@ fclose($fp);
 
 header ("Content-type: text/html\r\n\r\n");
 echo htmlspecialchars("<div class='flickrphoto'>".
-  "<img src='".IMG_DIR.$id.".jpg' alt='".$title."'/>".
-  "<div class='flickrcaption'><a rel='nofollow' title='".$title."' alt='".$title."' href='".$licenseurl."'><img src='".IMG_DIR."cc.gif'></a><a rel='nofollow' href='".$urlbase."'> by ".$owner."</a></div>".
+  "<img src='".IMG_DIR.$id.".jpg' alt='".$title."' title='".$title."'/>".
+  "<div class='flickrcaption'><a rel='nofollow' href='".$licenseurl."'><img src='".IMG_DIR."cc.gif'></a><a rel='nofollow' href='".$urlbase."'> by ".$owner."</a></div>".
   "</div>");
