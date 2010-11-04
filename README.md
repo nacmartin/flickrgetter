@@ -20,7 +20,10 @@ Go to flickr, search for free contents: http://www.flickr.com/search/?l=cc&mt=al
 
 Click in the image you like and then go to http://your.url.example.com?url= where the parameter is the url of the image that you want. For instance: http://your.url.example.com?url=http://www.flickr.com/photos/kyral210/5141931157/
 
+You may want to use this weblett: javascript:q=(document.location.href);void(open('http://your.url.example.com?url='+q,'_self','resizable,location,menubar,toolbar,scrollbars,status'));
+
 Flickrgetter will grab the image, store it in the specified directory and provide you with some html code. If you paste it in your post, you are done.
+
 
 License
 -------
